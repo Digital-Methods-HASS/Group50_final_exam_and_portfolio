@@ -1,0 +1,695 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "År",
+          "expression": "value",
+          "columnName": "År",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression grel:value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1999:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1999"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "År",
+          "expression": "value",
+          "columnName": "År",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression grel:value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2002:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2002"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "År",
+          "expression": "value",
+          "columnName": "År",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression grel:value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "År",
+          "expression": "value",
+          "columnName": "År",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "grel:value.replace(\".\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression grel:value.replace(\".\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2000:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2000"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2001:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2001"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2003:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2003"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2004:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2004"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2005:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2005"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2006:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2006"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2007:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2007"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2008:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2008"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "År",
+          "expression": "value",
+          "columnName": "År",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [],
+          "selectBlank": true,
+          "selectError": false
+        }
+      ],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "grel:value.replace(\":\",\"\")",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression grel:value.replace(\":\",\"\")"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2010:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2010"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2009:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2009"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2012:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2012"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "2011:"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2011"
+      }
+    ],
+    "description": "Mass edit cells in column År"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Can"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAN"
+      }
+    ],
+    "description": "Mass edit cells in column Nationalitet"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Nationalitet",
+    "keyColumnName": "Navn",
+    "mode": "separator",
+    "separator": ",",
+    "regex": false,
+    "description": "Split multi-valued cells in column Nationalitet"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "CAN",
+          " CAN",
+          " Can",
+          "Can"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "CAN"
+      },
+      {
+        "from": [
+          "IRL",
+          " IRL",
+          "Irl"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "IRL"
+      },
+      {
+        "from": [
+          "DK",
+          " DK",
+          "Dk"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "DK"
+      },
+      {
+        "from": [
+          "USA",
+          " USA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "USA"
+      },
+      {
+        "from": [
+          "UK",
+          " UK"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "UK"
+      },
+      {
+        "from": [
+          "SCO",
+          "Sco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "SCO"
+      },
+      {
+        "from": [
+          "ZW",
+          " ZW"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ZW"
+      },
+      {
+        "from": [
+          "NL",
+          " NL"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NL"
+      },
+      {
+        "from": [
+          "NO",
+          "No"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "NO"
+      },
+      {
+        "from": [
+          " EAU",
+          "EAU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": " EAU"
+      },
+      {
+        "from": [
+          "GB",
+          " GB"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "GB"
+      },
+      {
+        "from": [
+          "ENG",
+          " Eng"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "ENG"
+      },
+      {
+        "from": [
+          "A",
+          " A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "A"
+      },
+      {
+        "from": [
+          "D",
+          " D"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "D"
+      }
+    ],
+    "description": "Mass edit cells in column Nationalitet"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nationalitet using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value.replace(/[\\p{Zs}\\s]+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Nationalitet using expression value.replace(/[\\p{Zs}\\s]+/,' ')"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "FIN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "FI"
+      }
+    ],
+    "description": "Mass edit cells in column Nationalitet"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "HUN"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HUN"
+      }
+    ],
+    "description": "Mass edit cells in column Nationalitet"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Nationalitet",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "HU"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "HUN"
+      }
+    ],
+    "description": "Mass edit cells in column Nationalitet"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "År",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column År using expression value.toNumber()"
+  }
+]
